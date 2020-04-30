@@ -1,0 +1,10 @@
+.custom-button{
+    width:8rem;
+    height:2rem;
+    background: grey;
+    color: black;
+    &:hover{
+        background: black;
+        color: white;
+    }
+}

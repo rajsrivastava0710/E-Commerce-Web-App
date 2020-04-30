@@ -1,0 +1,17 @@
+.collection-container{
+    margin-bottom: 3rem;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .title{
+        font-size:3rem;
+        margin-bottom: 1rem;
+        align-self: center;
+    }
+    .preview{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+       
+    }
+}

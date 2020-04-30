@@ -1,0 +1,31 @@
+    .collection-item{
+        width:23%;
+        // margin:auto 1rem;
+        // flex-grow: 1;
+        min-width:250px;
+        display: flex;
+        flex-direction: column;
+        &:hover{
+            .image{
+                box-shadow:0 0 15px 2px #89b9b2;
+            }
+        }
+    .image{
+        width: 100%;
+        height:300px;
+        border:2px solid #5d4b4eb8;
+        border-radius: 5px;
+        background-size: cover;
+    }
+    .collection-footer{
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        padding:4px;
+        box-sizing: border-box;
+        .name{
+            word-break: break-all;
+        }
+    }
+}
