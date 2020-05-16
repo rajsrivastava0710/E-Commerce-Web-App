@@ -19,9 +19,17 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        position: relative;
+        right:10px;
 
         span{
             padding: 2rem;
+            &.cart-component-container{
+                width: 50px;
+                height: 120px;
+                // padding-left:5px;
+                // padding-right: 25px;
+            }
         }
     }
 }
