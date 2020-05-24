@@ -9,6 +9,15 @@
     background: #7fb2df;
     &:hover{
         background: black;
-        color: rgb(219, 203, 203);
+        color: white;
+    }
+}
+.inverted{
+    opacity:0.9;
+    color: black;
+    background-color: white;
+    &:hover{
+        background-color: black;
+        color: white;
     }
 }

@@ -1,0 +1,25 @@
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: .7rem;
+    // .item-image-container{
+        // width: 35%;
+        img{
+            width: 35%;
+            border: 2px solid #766464;
+            border-radius: 10px;
+        }
+    // }
+    .item-details{
+        word-break:break-word;
+        width: 55%;
+        font-size: 1.3rem;
+        // align-self: center;
+        text-align: center;
+        span{
+            display: inline-block;
+        }
+    }
+}

@@ -71,7 +71,7 @@ class Signup extends React.Component{
                 type='email' 
                 // placeholder='Your E-Mail' 
                 value={email} 
-                label='email' 
+                label='E-Mail' 
                 handleChange={this.handleChange} 
                 required 
             />

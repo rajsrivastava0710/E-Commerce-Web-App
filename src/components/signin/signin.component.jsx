@@ -43,7 +43,7 @@ class Signin extends React.Component{
                         type='email' 
                         // placeholder='Your E-Mail' 
                         value={this.state.email} 
-                        label='email' 
+                        label='E-Mail' 
                         handleChange={this.handleChange} 
                         required 
                     />
@@ -53,7 +53,7 @@ class Signin extends React.Component{
                         // placeholder='Your Password' 
                         value = {this.state.password} 
                         handleChange={this.handleChange} 
-                        label='password' 
+                        label='Password' 
                         required
                     />
                     <CustomButton type='submit'>Signin</CustomButton>
