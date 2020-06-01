@@ -1,3 +1,30 @@
-*{
+*{  
     box-sizing: border-box;
+    cursor: context-menu;
 }
+/* hides the scroll bar */
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+/* width of scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track left scroll bar color */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 15px;
+  }
+   
+  /* Handle active scroll bar color */
+  ::-webkit-scrollbar-thumb {
+    background: #999090; 
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

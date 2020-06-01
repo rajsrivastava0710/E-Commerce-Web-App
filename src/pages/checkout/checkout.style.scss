@@ -1,0 +1,30 @@
+div{
+    &.checkout-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 2px;
+        .checkout-header-container{
+            font-size: 3.4rem;
+            font-family: cursive;
+            margin:15px;
+        }
+
+        .checkout-item-container{
+            width: 90%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+
+        .total-value-container{
+            margin: 20px;
+            font-size: 2.7rem;
+            font-family: monospace;
+            span{
+
+            }
+        }
+    }
+}

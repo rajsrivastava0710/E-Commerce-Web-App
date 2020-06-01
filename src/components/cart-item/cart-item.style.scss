@@ -4,14 +4,16 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: .7rem;
-    // .item-image-container{
-        // width: 35%;
+    .item-image-container{
+        width: 35%;
+        height: 110px;
         img{
-            width: 35%;
+            width: 100%;
+            height: 100%;
             border: 2px solid #766464;
             border-radius: 10px;
         }
-    // }
+    }
     .item-details{
         word-break:break-word;
         width: 55%;
